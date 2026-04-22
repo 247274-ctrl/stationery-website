@@ -161,8 +161,9 @@ footer {
     font-weight: bold;
     transition: 0.3s;
 }
+
 .cart-btn:hover {
-    background: #e68900;
+    background: #e6b800;
 }
 @media (max-width: 900px) {
     .product-container {
