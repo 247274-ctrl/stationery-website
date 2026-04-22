@@ -167,6 +167,11 @@ footer {
     color: #555;
     margin: 5px 10px;
 }
+.stars {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #ffb400;
+}
 .cart-btn:hover {
     background: #e6b800;
 }
