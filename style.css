@@ -207,4 +207,60 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+/* CONTACT PAGE */
+.contact-section {
+    padding: 50px;
+    text-align: center;
+    background: #f5f7fa;
+    min-height: 90vh;
+}
+
+.contact-section h2 {
+    font-size: 32px;
+    color: #0d1b2a;
+    margin-bottom: 10px;
+}
+
+.contact-section p {
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* FORM BOX */
+.contact-form {
+    width: 400px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* INPUTS */
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+}
+
+/* BUTTON */
+.contact-form button {
+    background: #ffcc00;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background: #e6b800;
+}
 }
