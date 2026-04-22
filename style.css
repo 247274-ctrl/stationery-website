@@ -172,6 +172,10 @@ footer {
     font-size: 14px;
     color: #ffb400;
 }
+.stars span {
+    color: #333;
+    font-size: 12px;
+}
 .cart-btn:hover {
     background: #e6b800;
 }
