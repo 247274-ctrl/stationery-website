@@ -36,7 +36,12 @@
     color: white;
     text-align: center;
 }
-
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 30px;
+}
 .hero::before {
     content: "";
     position: absolute;
