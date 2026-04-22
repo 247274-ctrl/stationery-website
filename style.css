@@ -4,7 +4,19 @@
     box-sizing: border-box;
     font-family: Arial;
 }
+:root{
+    --primary: #0f172a;
+    --secondary: #1e293b;
+    --accent: #f59e0b;
+    --text: #e2e8f0;
+    --card: #ffffff;
+}
 
+body{
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f6f9;
+    color: #1e293b;
+}
 /* NAVBAR */
 .navbar {
     display: flex;
