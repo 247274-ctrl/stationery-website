@@ -210,16 +210,16 @@ footer {
 /* CONTACT PAGE */
 .contact-section {
     min-height: 100vh;
+    background: linear-gradient(135deg, #0d1b2a, #1b263b);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
-    background: linear-gradient(135deg, #0d1b2a, #1b263b);
     padding: 40px;
-    color: white;
     text-align: center;
+    color: white;
 }
+
 
 .contact-section h2 {
     font-size: 36px;
@@ -272,5 +272,9 @@ footer {
 
 .contact-form button:hover {
     background: #e6b800;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
 }
 }
