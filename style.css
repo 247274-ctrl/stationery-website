@@ -105,8 +105,10 @@
 }
 
 .price {
-    color: green;
+    color: #1a8f3c;
     font-weight: bold;
+    font-size: 18px;
+    margin: 5px 0;
 }
 
 .qty {
