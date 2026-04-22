@@ -31,7 +31,7 @@
 /* MENU RIGHT SIDE */
 .menu {
     display: flex;
-    gap: 20px;
+    gap: 35px;
 }
 
 .menu a {
@@ -43,10 +43,13 @@
 .menu a:hover {
     color: rgb(244, 242, 238);
 }
-.menu a:link,
-.menu a:visited {
+a {
     color: white;
     text-decoration: none;
+}
+
+a:visited {
+    color: white;
 }
 
 /* HERO SECTION */
