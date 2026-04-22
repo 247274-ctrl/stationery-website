@@ -222,15 +222,17 @@ footer {
 }
 
 .contact-section h2 {
-    font-size: 32px;
-    color: #0d1b2a;
+    font-size: 36px;
     margin-bottom: 10px;
 }
 
 .contact-section p {
-    color: #555;
-    margin-bottom: 30px;
+    color: #ccc;
+    margin-bottom: 25px;
 }
+
+
+
 
 /* FORM BOX */
 .contact-form {
