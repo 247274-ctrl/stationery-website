@@ -77,10 +77,12 @@
 }
 /* PRODUCTS */
 .product-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 30px;
 }
 
 /* CARD */
