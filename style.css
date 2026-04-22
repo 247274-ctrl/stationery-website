@@ -162,3 +162,9 @@ footer {
 .cart-btn:hover {
     background: #e68900;
 }
+@media (max-width: 900px) {
+    .product-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+}
