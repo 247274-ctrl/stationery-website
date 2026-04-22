@@ -157,3 +157,6 @@ footer {
     cursor: pointer;
     transition: 0.3s;
 }
+.cart-btn:hover {
+    background: #e68900;
+}
