@@ -208,6 +208,60 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+/* HERO */
+.about-hero {
+    text-align: center;
+    padding: 60px;
+    background: linear-gradient(135deg, #0d1b2a, #1b263b);
+    color: white;
+}
+
+/* ABOUT SECTION */
+.about-section {
+    display: grid;
+    gap: 20px;
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.about-box {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* STATS */
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+    text-align: center;
+}
+
+.stat-box {
+    background: #0d1b2a;
+    color: white;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+/* FOOTER */
+footer {
+    background: #0d1b2a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* RESPONSIVE */
+@media(max-width: 768px){
+    .stats {
+        grid-template-columns: 1fr;
+    }
+}
 /* CONTACT PAGE */
 .contact-form {
     width: 380px;
