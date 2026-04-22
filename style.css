@@ -18,23 +18,26 @@ body{
     color: #1e293b;
 }
 /* NAVBAR */
-.navbar {
+.navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #0d1b2a;
+    background: var(--primary);
     padding: 15px 40px;
     color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
-.navbar a {
+.navbar a{
     color: white;
-    margin-left: 15px;
+    margin-left: 20px;
     text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
 }
 
-.navbar a:hover {
-    color: orange;
+.navbar a:hover{
+    color: var(--accent);
 }
 
 /* HERO */
