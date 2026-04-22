@@ -249,14 +249,15 @@ footer {
 }
 
 /* INPUTS */
+
 .contact-form input,
 .contact-form textarea {
     padding: 12px;
     border: 1px solid #ddd;
     border-radius: 8px;
     outline: none;
-    font-size: 14px;
 }
+
 
 /* BUTTON */
 .contact-form button {
