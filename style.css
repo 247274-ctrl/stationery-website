@@ -334,4 +334,119 @@ footer {
     .contact-form {
         width: 90%;
     }
+    
+}
+/* SIGN IN BUTTON */
+.signin-btn {
+    background: orange;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* MODAL BACKGROUND */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+
+/* BOX */
+.modal-content {
+    background: white;
+    width: 300px;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.modal-content input {
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+}.offer {
+    background: #f7f3ea;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.offer h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.offer p {
+    max-width: 600px;
+    margin: auto;
+    font-size: 14px;
+    color: #444;
+}
+
+.offer form {
+    margin-top: 20px;
+}
+
+.offer input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.offer button {
+    padding: 10px 15px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.footer {
+    background: #0d1b2a;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.footer-container h3 {
+    margin-bottom: 10px;
+}
+
+.footer-container a {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.footer-container a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #aaa;
+}@media (max-width: 768px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .offer input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
 }
