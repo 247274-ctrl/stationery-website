@@ -176,6 +176,14 @@ footer {
     color: #333;
     font-size: 12px;
 }
+.rating-box {
+    margin-top: 10px;
+    padding: 10px;
+    background: #f7f7f7;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+}
 .cart-btn:hover {
     background: #e6b800;
 }
