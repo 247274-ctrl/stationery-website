@@ -8,7 +8,7 @@
 /* NAVBAR */
 .navbar {
     width: 100%;
-    background: #1e3a8a; /* BLUE */
+    background: hsl(223, 100%, 4%); /* BLUE */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,13 +35,18 @@
 }
 
 .menu a {
-    color: white;
+    color: rgb(247, 242, 242);
     text-decoration: none;
     font-size: 16px;
 }
 
 .menu a:hover {
-    color: orange;
+    color: rgb(244, 242, 238);
+}
+.menu a:link,
+.menu a:visited {
+    color: white;
+    text-decoration: none;
 }
 
 /* HERO SECTION */
@@ -62,7 +67,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0,0,0,0.5);
+    background: rgba(243, 240, 240, 0.5);
 }
 
 /* TEXT ABOVE IMAGE */
