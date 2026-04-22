@@ -148,3 +148,12 @@ footer {
     text-align: center;
     padding: 15px;
 }
+.cart-btn {
+    background: #ff9800;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
